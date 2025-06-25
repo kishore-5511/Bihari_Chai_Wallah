@@ -10,7 +10,7 @@ const orderSchema = new mongoose.Schema({
   }],
   totalAmount: Number,
   paymentMethod: String,
-  paymentStatus: { type: String, default: 'pending' }
+  paymentStatus: { type: String, default: 'pending Payment' }
 }, { timestamps: true });
 
 // Create and export the model
